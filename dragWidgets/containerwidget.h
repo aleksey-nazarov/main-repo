@@ -23,7 +23,7 @@ private:
     QLabel * sumLabel;
 
     void positionSumLabel();
-
+// comment to be deleted later
 
 protected:
     void mousePressEvent(QMouseEvent *event) Q_DECL_OVERRIDE;

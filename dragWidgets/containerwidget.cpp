@@ -178,6 +178,7 @@ void ContainerWidget::mousePressEvent(QMouseEvent *event)
 
     //Qt::DropAction dropAction =
     drag->exec();
+    childMW->undim();
 
     /*QPoint hotSpot = event->pos() - child->pos();
 
@@ -212,7 +213,6 @@ void ContainerWidget::dropEvent(QDropEvent *event)
         dataStream >> mWgtPtr_seria >> offset;
         mWgt = (miniWidget *) mWgtPtr_seria;
 
-        mWgt->undim();
         if (event->source() == this) {
             // переносим виджет в рамках одного контейнера
             //mWgt->move(event->pos() - offset);
