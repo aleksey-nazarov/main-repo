@@ -1,6 +1,8 @@
 #ifndef CONTAINERWIDGET_H
 #define CONTAINERWIDGET_H
 
+// one new line
+
 #include <QFrame>
 class QLabel;
 

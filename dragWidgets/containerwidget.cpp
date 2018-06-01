@@ -8,6 +8,8 @@
 #include <QMimeData>
 #include <QLabel>
 
+// new line
+
 ContainerWidget::ContainerWidget(QWidget *parent) :
     QFrame(parent),
     ui(new Ui::ContainerWidget)
